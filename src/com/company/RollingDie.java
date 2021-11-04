@@ -166,8 +166,25 @@ import java.awt.Color;
                     g.fillOval(x2, y2, dotSize, dotSize);
                     break;
 
-                ________________________________________
-      ...
+                case 2:
+                    g.fillOval(x1, y1, dotSize, dotSize);
+                    g.fillOval(x3, y1, dotSize, dotSize);
+                    break;
+
+                case 3:
+                    g.fillOval(x3, y1, dotSize, dotSize);
+                    g.fillOval(x2, y2, dotSize, dotSize);
+                    g.fillOval(x1, y3, dotSize, dotSize);
+                    break;
+
+                case 4:
+
+                    break;
+
+                case 5:
+
+                    break;
+
 
             }
         }
