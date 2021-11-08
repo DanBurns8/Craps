@@ -1,8 +1,5 @@
 package com.company;
 
-public class RollingDie {
-    // Implements a rolling die object.
-
 import java.awt.Graphics;
 import java.awt.Color;
 
@@ -178,15 +175,27 @@ import java.awt.Color;
                     break;
 
                 case 4:
-
+                    g.fillOval(x1, y1, dotSize, dotSize);
+                    g.fillOval(x1, y3, dotSize, dotSize);
+                    g.fillOval(x3, y1, dotSize, dotSize);
+                    g.fillOval(x3, y3, dotSize, dotSize);
                     break;
 
                 case 5:
-
+                    g.fillOval(x3, y1, dotSize, dotSize);
+                    g.fillOval(x3, y3, dotSize, dotSize);
+                    g.fillOval(x2, y2, dotSize, dotSize);
+                    g.fillOval(x1, y3, dotSize, dotSize);
+                    g.fillOval(x1, y1, dotSize, dotSize);
                     break;
 
-
+                case 6:
+                    g.fillOval(x1, y1, dotSize, dotSize);
+                    g.fillOval(x1, y3, dotSize, dotSize);
+                    g.fillOval(x2, y1, dotSize, dotSize);
+                    g.fillOval(x2, y3, dotSize, dotSize);
+                    g.fillOval(x3, y1, dotSize, dotSize);
+                    g.fillOval(x3, y3, dotSize, dotSize);
             }
         }
     }
-}
