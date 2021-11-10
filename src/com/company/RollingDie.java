@@ -165,7 +165,7 @@ import java.awt.Color;
 
                 case 2:
                     g.fillOval(x1, y1, dotSize, dotSize);
-                    g.fillOval(x3, y1, dotSize, dotSize);
+                    g.fillOval(x3, y3, dotSize, dotSize);
                     break;
 
                 case 3:
